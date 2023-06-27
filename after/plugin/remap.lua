@@ -23,7 +23,8 @@ vim.keymap.set({ "n", "v" }, "<leader>d", [["_d]], { desc = "[Y] with system cli
 vim.keymap.set("i", "<C-c>", "<Esc>", { desc = "" })
 
 vim.keymap.set("n", "Q", "<nop>", { desc = "" })
-vim.keymap.set("n", "<C-f>", "<cmd>silent !tmux neww tmux-sessionizer<CR>", { desc = "Switch to last active tmux session" })
+vim.keymap.set("n", "<C-f>", "<cmd>silent !tmux neww tmux-sessionizer<CR>",
+    { desc = "Switch to last active tmux session" })
 vim.keymap.set("n", "<leader>f", vim.lsp.buf.format, { desc = "[F]ormat current buffer" })
 
 vim.keymap.set("n", "<C-k>", "<cmd>cnext<CR>zz", { desc = "" })
