@@ -1,3 +1,3 @@
 return {
-  'earthly/earthly.vim'
+  'earthly/earthly.vim',
 }
